@@ -1,0 +1,61 @@
+:root {
+    --theme-primary-color-b: #21209C;
+    --theme-primary-color-y: #FDB827;
+    --theme-primary-color-d: #23120B;
+    --theme-primary-color-w: #F1F1F1;
+}
+
+body {
+    margin-right: auto;
+    margin-left:  auto;
+    height: auto;
+    width: 100%;
+    background-color: var(--theme-primary-color-b);
+}
+
+.wrapper{
+    min-height: 100%;
+}
+
+.wrapper{
+    padding-right: 5%;
+    padding-left:  5%;
+}
+
+.log-text-color,
+.log-text-color >li> a,
+.dropdown-menu >li> a{
+    color: var(--theme-primary-color-w);
+}
+
+.nav-link:focus, 
+.nav-link:hover{
+    color: var(--theme-primary-color-y) !important;
+}
+
+.nav-active{
+    color: var(--theme-primary-color-y) !important;
+}
+
+.btn-contact{
+    height: auto;
+    background-color: var(--theme-primary-color-y);
+    border-radius: 100px !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+
+.btn-contact a{
+    color: var(--theme-primary-color-b) !important;
+    text-decoration: none;
+}
+
+.dropdown-menu{
+    background-color: var(--theme-primary-color-b);
+    color: var(--theme-primary-color-w);
+}
+
+.dropdown-item:hover{
+    background-color: var(--theme-primary-color-y);
+    color: var(--theme-primary-color-b);
+}
