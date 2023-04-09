@@ -3,41 +3,46 @@
     --theme-primary-color-y: #FDB827;
     --theme-primary-color-d: #23120B;
     --theme-primary-color-w: #F1F1F1;
+    --theme-primary-color-db: #111170;
 }
 
 body {
     margin-right: auto;
-    margin-left:  auto;
+    margin-left: auto;
     height: auto;
     width: 100%;
     background-color: var(--theme-primary-color-b);
 }
 
-.wrapper{
+.wrapper {
     min-height: 100%;
 }
 
-.wrapper{
-    padding-right: 5%;
-    padding-left:  5%;
+.wrapper {
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .log-text-color,
-.log-text-color >li> a,
-.dropdown-menu >li> a{
+.log-text-color>li>a,
+.dropdown-menu>li>a {
     color: var(--theme-primary-color-w);
 }
 
-.nav-link:focus, 
-.nav-link:hover{
+.nav-link:focus,
+.nav-link:hover {
     color: var(--theme-primary-color-y) !important;
 }
 
-.nav-active{
+.nav-active {
     color: var(--theme-primary-color-y) !important;
+    text-decoration-line: underline;
+    text-decoration-color: var(--theme-primary-color-y);
+    text-decoration-thickness: 0.2rem;
+    text-underline-offset: 0.3rem;
 }
 
-.btn-contact{
+.btn-contact {
     height: auto;
     background-color: var(--theme-primary-color-y);
     border-radius: 100px !important;
@@ -45,17 +50,42 @@ body {
     padding-right: 1.5rem !important;
 }
 
-.btn-contact a{
+.btn-color-1{
+    height: auto;
+    background-color: var(--theme-primary-color-y);
+    border-radius: 5px !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    margin-top: 7%;
+}
+
+.btn-contact a {
     color: var(--theme-primary-color-b) !important;
     text-decoration: none;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     background-color: var(--theme-primary-color-b);
     color: var(--theme-primary-color-w);
 }
 
-.dropdown-item:hover{
+.dropdown-item:hover {
     background-color: var(--theme-primary-color-y);
     color: var(--theme-primary-color-b);
+}
+
+.nav-item:hover {
+    text-decoration-line: underline;
+    text-decoration-color: var(--theme-primary-color-y);
+    text-decoration-thickness: 0.2rem;
+    text-underline-offset: 0.3rem;
+}
+
+.prodution{
+    background-color: var(--theme-primary-color-db);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10%;
+    padding-bottom: 10%;
+
 }
